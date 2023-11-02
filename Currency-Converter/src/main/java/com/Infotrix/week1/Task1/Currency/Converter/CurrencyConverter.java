@@ -39,6 +39,9 @@ public class CurrencyConverter {
             JSONObject json = new JSONObject(response.toString());
             JSONObject quotes = json.getJSONObject("quotes");
             for (String key : quotes.keySet()) {
+            	System.out.println(key);
+            	System.out.println(quotes.getDouble(key));
+            	
                 exchangeRates.put(key, quotes.getDouble(key));
             }
         } catch (Exception e) {

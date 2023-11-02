@@ -50,10 +50,7 @@
         <artifactId>json</artifactId>
         <version>20210307</version> <!-- Use the latest version available -->
     </dependency>
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-httpclient</artifactId>
-    </dependency>
+   
     <!-- Spring Boot Actuator -->
     <dependency>
         <groupId>org.springframework.boot</groupId>
